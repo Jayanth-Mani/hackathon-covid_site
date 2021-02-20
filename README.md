@@ -1,1 +1,1 @@
-# hackathon-covid_site
+# Hackathon Project
