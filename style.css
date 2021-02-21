@@ -1,1 +1,148 @@
+.body-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+ }
+  
+ .title {
+    font-size: 50px;
+    letter-spacing: 7px;
+ }
 
+ img {
+   display: inline-block;
+   width: auto;
+   height: auto;
+}
+
+@media (max-width: 600px) {
+ img {
+   width: 100%;
+ }
+}
+
+body {
+
+    
+   /* background-image: url('lime.jpg'); */
+ 
+   background-size: cover;
+ 
+ }
+   * {
+             margin: 0;
+             padding: 0;
+         }
+
+         .imgbox {
+             /* height: 1000px; */
+             width: 100%;
+             /* background-image: url(homepagenew2x.png);
+             background-size: cover; */
+         }
+         .center-fit {
+             max-width: 100%;
+             max-height: 100%;
+             margin: 0;
+         }
+
+
+.header {
+   font-family: Arial, Helvetica, sans-serif;
+   color: #00fff5;
+   font-size: 100px;
+   text-align: center;
+   margin-top:100px
+}
+
+.subheader {
+   font-family: Arial, Helvetica, sans-serif;
+   color: #ffffff;
+   font-size: 50px;
+   text-align: center;
+   margin-top:100px;
+}
+
+.info-container {
+
+   display: grid;
+}
+
+.container-of-info-containers {
+
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+.button {
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   height: 50px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   height: 50px;
+   margin-left:10px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+ 
+ .button1 {
+   margin-left:10px;
+   background-color: #07075A;
+   height: 50px;
+   color: white;
+   border: 2px solid #00FFF5;
+   border-radius: 40px;
+ }
+ 
+ .button1:hover {
+   margin-left:10px;
+   background-color: #00fff5;
+   height: 50px;
+   color: black;
+   border: 2px solid #07075A;
+   border-radius: 40px;
+ 
+ }
+
+ .state-input {
+   display: inline-block;
+   margin-top:50px;
+   text-align: center;
+   font-size: 35px;
+   width: 500px;
+   height: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   border: 2px solid;
+   border-radius: 40px;
+   border-color: #00fff5;
+
+}
+
+.input-and-button {
+   text-align: center;
+
+}
+
+
+.information {
+   font-family: Arial, Helvetica, sans-serif;
+   color: #00fff5;
+   font-size: 40px;
+   text-align: center;
+   margin-top:30px;
+}
+
+#worldtodaydeaths{
+
+   margin-bottom:45px;
+
+
+
+}

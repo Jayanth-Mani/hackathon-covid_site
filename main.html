@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html>
+  
+ <head>
+
+ <link rel="icon" type="image/png" href="icon.png" />
+   
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+   
+
+ </style>
+   <link type="text/css" href="style.css" rel="stylesheet" />
+ </head>
+ 
+
+ <body style="background-color: #07075A">
+
+  <img class="imgbox" src="header.png"/>
+
+  
+  <h1 class="header">WORLD.</h1>
+
+
+<div class="container-of-info-containers">
+
+  <div class="info-container">
+
+    <h2 class="subheader">Total Cases:</h2>
+
+    <p id="worldtotalcases" class="information"></p>
+
+  </div>
+
+  <div class="info-container">
+
+    <h2 class="subheader">Total Deaths:</h2>
+
+    <p id="worldtotaldeaths" class="information"></p>
+
+  </div>
+  
+  <div class="info-container">
+
+    <h2 class="subheader">Cases Today:</h2>
+
+    <p id="worldtodaycases" class="information"></p>
+  
+  </div>
+
+ 
+
+  <div class="info-container">
+
+    <h2 class="subheader">Deaths Today:</h2>
+
+    <p id="worldtodaydeaths" class="information"></p>
+
+  </div>
+
+
+</div>
+
+
+<!-- ---------------------------------------------------------------------------- -->
+
+
+  <h1 class="header">US States.</h1>
+  <h3 class="information">Insert State Name Below and Hit The Go Button</h3>
+  <div class="input-and-button">
+
+    <input class="state-input" id="state-symbol"/>
+    
+    <button class="button button1" onclick = "getStatePositives(); getStateHospital(); getStateDeaths(); getStateVentilators()">GO</button>
+
+    <div class="container-of-info-containers">
+
+      <div class="info-container">
+    
+        <h2 class="subheader">Total State Positives:</h2>
+    
+        <p id="statepositives" class="information"></p>
+    
+      </div>
+    
+      <div class="info-container">
+    
+        <h2 class="subheader">Total State Hospitalized:</h2>
+    
+        <p id="statehospital" class="information"></p>
+    
+      </div>
+      
+      <div class="info-container">
+    
+        <h2 class="subheader">Total State Deaths:</h2>
+    
+        <p id="statedeaths" class="information"></p>
+      
+      </div>
+    
+    
+      <div class="info-container">
+    
+        <h2 class="subheader">Total Currently on Ventilators:</h2>
+    
+        <p id="stateventilators" class="information"></p>
+    
+      </div>
+
+  </div>
+  
+
+ </body>
+
+ <footer>
+
+  <img class="imgbox" src="footer.png"/>
+  
+
+ </footer>
+</html>
+ 
+<script src="script.js"></script>
 
